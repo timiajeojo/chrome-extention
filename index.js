@@ -1,11 +1,7 @@
-//for the DOM
-document.addEventListener("DOMContentLoaded", function() {
-    //get element by its id
-    let saveButton  = document.getElementById("saveButton")
-//for the click 
-    saveButton.addEventListener ("click", function() {
-        //log out
-        console.log("ButtonClicked");
-    })
-    
+
+let myLeads = [];
+const inputEl = document.getElementById("input-el")
+const inputBtn = document.getElementById("input-btn")
+inputBtn.addEventListener("click", function() {
+    console.log("Button clicked!")
 })
